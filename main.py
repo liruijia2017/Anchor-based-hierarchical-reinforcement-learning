@@ -74,11 +74,8 @@ if __name__ == "__main__":
 
     "AHRL"
     while step < args.max_steps:
-
         if done:
-
             if step != 0:
-
                 "Normalize"
                 tempFall = -anchor_weight[0:episode_num, 0:col]
                 tempAbs = np.abs(tempFall)
