@@ -9,6 +9,7 @@ AHRL is tested by [MuJoCo](http://www.mujoco.org/) and [OpenAI gym](https://gith
 ## Usage
 To train a policy on the Point Maze task by running:
 python main.py --env PointMaze
+
 To see the performance of a policy trained on the Point Maze task by running:
 python test.py --env PointMaze
 
