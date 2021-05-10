@@ -10,7 +10,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--env_name", default="PointMaze")             # Environment name: PointMaze, DoubleInvertedPendulum or AntPush
     parser.add_argument("--max_test_steps", default=5e2, type=int)     # Max test steps
-
+    args = parser.parse_args()
+    
     if args.env_name == "AntPush":
         env = AntPushEnv()
     elif args.env_name == "PointMaze":
