@@ -1,7 +1,7 @@
 # Written by Ruijia Li (ruijia2017@163.com), UESTC, 2020-12-1.
 import time, torch, argparse
 import numpy as np
-from Algorithms import ahrl, buffer, evaluate, normalization
+from Functions import ahrl, buffer, evaluate, normalization
 from Environments.AntPush.maze_env import AntPushEnv
 from Environments.PointMaze.maze_env import PointMazeEnv
 from Environments.DoubleInvertedPendulum.DoubleInvertedPendulum import DoubleInvertedPendulumEnv
