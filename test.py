@@ -1,6 +1,6 @@
 # Written by Ruijia Li (ruijia2017@163.com), UESTC, 2020-12-1.
 import argparse
-from Algorithms import ahrl
+from Functions import ahrl
 from Environments.AntPush.maze_env import AntPushEnv
 from Environments.PointMaze.maze_env import PointMazeEnv
 from Environments.DoubleInvertedPendulum.DoubleInvertedPendulum import DoubleInvertedPendulumEnv
